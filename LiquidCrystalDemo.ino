@@ -12,7 +12,7 @@ void loop()
 {
   for(int i = 10; i > 0; i--)
   {
-     std::cout << i ;
+     lcd.print(i);
   }
   
 }
